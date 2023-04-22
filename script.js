@@ -1,11 +1,9 @@
 const { ethers } = require("ethers");
 const data = require("./config.json");
 
-const provider = new ethers.WebSocketProvider(
-  "wss://eth-sepolia.g.alchemy.com/v2/0UcTz6UcNZTf5vlpXpq0w7cbIN0pSVbs"
-);
+const provider = new ethers.WebSocketProvider(data.provider);
 
-const amount = "0.1";
+const amount = data.fundAmount || "0.1";
 
 const getWallets = () => {
   return data.wallets.map(

@@ -1,9 +1,7 @@
 {
+  "provider": "wss provider example: wss://eth-sepolia.g.alchemy.com/v2/key",
+  "fundAmount": "0.1",
   "target": "public address",
   "fundWallet": "private key",
-  "wallets": [
-    "private key1",
-    "private key2",
-    "private key3"
-  ]
+  "wallets": ["private key1", "private key2", "private key3"]
 }
