@@ -1,0 +1,9 @@
+{
+  "target": "public address",
+  "fundWallet": "private key",
+  "wallets": [
+    "private key1",
+    "private key2",
+    "private key3"
+  ]
+}
